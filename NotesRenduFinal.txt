@@ -1,0 +1,13 @@
+Attendus :
+    - Lire le papier
+    - Lire des papiers relier pour voirles aletrnatives, qu'est ce qui est possible ?
+    - Réimplémenter le code sans GPT ni copier coller un github
+
+Rendre : Github + papier de 15-20 pages (sans annexes)
+    - Expliquer la méthode et l'état de l'art
+    - Bien détailler la partie expérience (travail sur les hyperparamètres, comparaison avec l'OG, nouvelles idées)
+
+Possibilité de changer des parties si trop compliqué
+
+Utiliser le template ML reproductibility challenge
+TMLR guideline for authors
