@@ -22,7 +22,8 @@ processor = AutoProcessor.from_pretrained(
     trust_remote_code=True,
     torch_dtype='auto',
     device_map='auto'
-)```
+)
+```
 
 - **4**: To load the model, use :
 
