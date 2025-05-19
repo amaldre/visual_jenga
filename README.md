@@ -2,7 +2,7 @@
 
 ## To do before starting the project
 
-### Use Molmo
+### (OPTIONNEL) Use Molmo
 
 - **1**: Install dependencies : 
 
