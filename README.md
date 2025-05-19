@@ -45,7 +45,7 @@ To install SAM 2, you need `python>=3.10`, as well as `torch>=2.5.1` and `torchv
 - **1** : Clone the rep :
 
 ```bash
-git clone https://github.com/facebookresearch/sam2.git && cd sam2
+git clone git@github.com:facebookresearch/sam2.git && cd sam2
 
 pip install -e .
 ```
