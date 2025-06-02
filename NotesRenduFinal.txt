@@ -11,3 +11,10 @@ Possibilité de changer des parties si trop compliqué
 
 Utiliser le template ML reproductibility challenge
 TMLR guideline for authors
+
+
+modèles de la pipeline:
+-Molmo : VLM qui permet d'obtenir les coordonnées d'un point par objet
+-SAM 2 : on lui spécifie un point, il sort le masque de l'objet
+-StableDiffusion 1.5 : il remplit le trou avec plusieurs propositions 
+-Adobe firefly : pour vraiment supprimer l'objet
