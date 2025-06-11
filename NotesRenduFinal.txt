@@ -3,7 +3,7 @@ Attendus :
     - Lire des papiers relier pour voir les alternatives, qu'est ce qui est possible ?
     - Réimplémenter le code sans GPT ni copier coller un github
 
-Rendre : Github + papier de 15-20 pages (sans annexes)
+Rendre : Github + papier de 15 pages max (sans annexes)
     - Expliquer la méthode et l'état de l'art
     - Bien détailler la partie expérience (travail sur les hyperparamètres, comparaison avec l'OG, nouvelles idées)
 
@@ -11,3 +11,10 @@ Possibilité de changer des parties si trop compliqué
 
 Utiliser le template ML reproductibility challenge
 TMLR guideline for authors
+
+
+modèles de la pipeline:
+-Molmo : VLM qui permet d'obtenir les coordonnées d'un point par objet
+-SAM 2 : on lui spécifie un point, il sort le masque de l'objet
+-StableDiffusion 1.5 : il remplit le trou avec plusieurs propositions 
+-Adobe firefly : pour vraiment supprimer l'objet
