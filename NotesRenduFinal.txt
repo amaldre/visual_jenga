@@ -3,7 +3,7 @@ Attendus :
     - Lire des papiers relier pour voirles aletrnatives, qu'est ce qui est possible ?
     - Réimplémenter le code sans GPT ni copier coller un github
 
-Rendre : Github + papier de 15-20 pages (sans annexes)
+Rendre : Github + papier de 15 pages max (sans annexes)
     - Expliquer la méthode et l'état de l'art
     - Bien détailler la partie expérience (travail sur les hyperparamètres, comparaison avec l'OG, nouvelles idées)
 
