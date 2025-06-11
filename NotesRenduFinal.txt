@@ -1,6 +1,6 @@
 Attendus :
     - Lire le papier
-    - Lire des papiers relier pour voirles aletrnatives, qu'est ce qui est possible ?
+    - Lire des papiers relier pour voir les alternatives, qu'est ce qui est possible ?
     - Réimplémenter le code sans GPT ni copier coller un github
 
 Rendre : Github + papier de 15-20 pages (sans annexes)
