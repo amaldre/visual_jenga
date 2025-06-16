@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-# Generate object masks using SAM alongside their original point from Molmo
+# Generate object masks using SAM from their original point from Molmo
 def generate_masks_sam(predictor, image, input_points):
    
     predictor.set_image(image)
