@@ -1,51 +1,39 @@
-# visual_jenga
+# Reproducibility Challenge : Visual Jenga
 
-## To do before starting the project
+This repository is the official implementation of [Reproducibility Challenge : Visual Jenga](https://google.com). 
 
-### (OPTIONNEL) Use Molmo
+The objective of this repository is to reproduce and extend the results of this paper : [Visual Jenga: Discovering Object Dependencies via Counterfactual Inpainting](https://arxiv.org/pdf/2503.21770)
+## Requirements
 
-- **1**: Install dependencies : 
+To install requirements:
 
-```bash
-pip install einops torchvision
+```setup
+pip install -r requirements.txt
 ```
 
-- **2**: Then import the following libraries : 
+This challenge was done mostly using [Kaggle](https://www.kaggle.com/code) to run the notebooks, due to the large size of the models used. As such, this project is better suited for usage on Kaggle rather than on a local machine. We do provide a requirements.txt file but it is possible that some requirements may be missing and that the notebooks need to be adapted.
 
-```bash
-from transformers import AutoModelForCausalLM, AutoProcessor, GenerationConfig
-```
+## Training
 
-- **3**: To load the processor, use :
+One of the advantage of this challenge is that it only uses pre-trained models. You do not need training to reproduce it.
 
-```bash
-processor = AutoProcessor.from_pretrained(
-    'allenai/Molmo-7B-O-0924',
-    trust_remote_code=True,
-    torch_dtype='auto',
-    device_map='auto'
-)
-```
+## Evaluation
 
-- **4**: To load the model, use :
+To evaluate this model on Nyu-v2 and HardParse, upload the visual-jenga.ipynb notebook on Kaggle. In sessions options, choose GPU T4 x2 as accelerator. Pick the according dataset (Nyu-v2 or Hardparse) as a variable. Then run the notebook cell by cell.
 
-```bash
-model = AutoModelForCausalLM.from_pretrained(
-    'allenai/Molmo-7B-O-0924',
-    trust_remote_code=True,
-    torch_dtype='auto',
-    device_map='auto'
-)
-```
+**Warning** : The Nyu-v2 dataset is very large, testing the model on the entirety of it on Kaggle with GPU T4 x2 takes approximately 32 hours, which is more GPU time than Kaggle allows. We limited ourselves to 10% of it.
 
-### Use SAM 2 :
+## Results
 
-To install SAM 2, you need `python>=3.10`, as well as `torch>=2.5.1` and `torchvision>=0.20.1`.
+Our model achieves the following performance on Nyu-v2 and Hardparse :
 
-- **1** : Clone the rep :
+| Model name         |     Nyu-V2      |    HardParse   |
+| ------------------ |---------------- | -------------- |
+| Visual Jenga       |     83.33%      |     57.50%     |
 
-```bash
-git clone git@github.com:facebookresearch/sam2.git && cd sam2
 
-pip install -e .
-```
+## Contributing
+
+Distributed under MIT License.
+
+If you wish to contribute further to this project, read the chapter 6.3 : Limitation of the current implementation on [Reproducibility Challenge : Visual Jenga](https://google.com).
