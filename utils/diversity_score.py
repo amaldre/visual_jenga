@@ -97,7 +97,7 @@ def crop_image_mask(image: Image.Image, mask: Image.Image):
 
     # Adjust if crop got smaller than 'side' due to clamping
     crop = image_np[y0:y1, x0:x1]
-    mask_crop = mask_np[y0:y1, x0:x1]
+    mask_crop = mask_bin[y0:y1, x0:x1]
 
     # Pad if needed to make square
     h, w = crop.shape[:2]
