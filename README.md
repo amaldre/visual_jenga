@@ -1,17 +1,12 @@
+![Screenshot](images\image_cubes.png)
+
 # Reproducibility Challenge : Visual Jenga
 
-This repository is the official implementation of [Reproducibility Challenge : Visual Jenga](https://google.com). 
-
 The objective of this repository is to reproduce and extend the results of this paper : [Visual Jenga: Discovering Object Dependencies via Counterfactual Inpainting](https://arxiv.org/pdf/2503.21770)
+
 ## Requirements
 
-To install requirements:
-
-```setup
-pip install -r requirements.txt
-```
-
-This challenge was done mostly using [Kaggle](https://www.kaggle.com/code) to run the notebooks, due to the large size of the models used. As such, this project is better suited for usage on Kaggle rather than on a local machine. We do provide a requirements.txt file but it is possible that some requirements may be missing and that the notebooks need to be adapted.
+This challenge was done mostly using [Kaggle](https://www.kaggle.com/code) to run the notebooks, due to the large size of the models used. As such, this project is better suited for usage on Kaggle rather than on a local machine. 
 
 ## Training
 
