@@ -1,4 +1,4 @@
-![Screenshot](images\image_cubes.png)
+![Screenshot](images/image_cubes.png)
 
 # Reproducibility Challenge : Visual Jenga
 
